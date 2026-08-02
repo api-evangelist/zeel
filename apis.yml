@@ -1,7 +1,26 @@
 aid: zeel
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zeel.png
 name: Zeel
-description: 'Zeel is a company surfaced as a portfolio company of partech and added to the API Evangelist
-  network as a stub for enrichment. Sector: Consumer. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Zeel is an on-demand wellness marketplace that connects consumers with
+  licensed, background-checked massage therapists for in-home, in-hotel, in-office,
+  and event chair massage delivered same-day and often within an hour of booking.
+  The platform covers a range of modalities including Swedish, deep tissue, sports,
+  prenatal, sleep, and couples massage, and offers memberships, gift certificates,
+  and a spa-staffing service (Zeel Spa Staffing) that supplies therapists to hotels
+  and spas. Zeel operates a consumer-facing web and mobile booking experience across
+  dozens of US metros; it does not publish a public developer API, SDKs, or partner
+  integration program.'
 url: https://raw.githubusercontent.com/api-evangelist/zeel/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer
+- Wellness
+- Massage
+- Marketplace
+- On-Demand
+- Health
+- Bookings
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +47,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/zeel-domain-security.yml
 - type: Website
-  url: http://zeel.com/
+  url: https://www.zeel.com/
+- type: About
+  url: https://www.zeel.com/about-zeel
+- type: Blog
+  url: https://www.zeel.com/blog/
+- type: Pricing
+  url: https://www.zeel.com/pricing
+- type: Support
+  url: https://www.zeel.com/help
+- type: SignUp
+  url: https://www.zeel.com/signup
+- type: Login
+  url: https://www.zeel.com/login
+- type: TermsOfService
+  url: https://www.zeel.com/terms-of-use
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
