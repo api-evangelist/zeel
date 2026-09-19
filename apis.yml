@@ -50,6 +50,15 @@ tags:
 - Marketplace
 - On-Demand
 - Health
+- Booking
+tags_raw:
+- Company
+- Consumer
+- Wellness
+- Massage
+- Marketplace
+- On-Demand
+- Health
 - Bookings
 apis: []
 maintainers:
